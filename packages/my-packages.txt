@@ -1,0 +1,26 @@
+@tanstack/react-query
+zustand
+storybook
+docz
+React Helmet
+react-scroll
+react-error-doundary
+react-email
+resend
+@formkit/auto-animate
+scoutbar
+axios
+react-use
+usehooks ts
+react-custom-hooks (https://github.com/sergeyleschev/react-custom-hooks)
+shadcnui
+@hookform/resolvers
+@phosphor-icons/react
+react-hook-form
+react-router-dom
+zod
+@testing-library/jest-dom
+@testing-library/react
+@testing-library/user-event
+@types/jest
+vitest

@@ -1,0 +1,29 @@
+-  [x] Arrumar responsividade do Hero.
+-  [x] Arrumar responsividade do About.
+   -  [x] Trocar o grid por flex.
+-  [x] Arrumar a largura.
+-  [x] Fazer verificação de tela para o uso do efeito de mouse.. 1200px.
+-  [x] Arrumar responsividade do Projects.
+-  [x] Finalizar o formulario.
+   -  [x] Colocar o zod validation form.
+   -  [x] Colcocar um sender de e-mail
+-  [x] Estilizar o Loading.
+-  [x] Arrumar a rota de 404 - NotFound.
+-  [x] Finalizar a rota do All Projects.
+-  [ ] Colocar o StoryBook.
+-  [ ] Fazer os testes.
+-  [ ] Adicionar Workflow para testes no GitHub.
+-  [x] Olhar os outros ports no readme.
+-  [x] Incluir a bibliotecas como ErroBoundary.
+   -  [x] Personalizar a Tela de OnError.
+-  [x] Favicon da Pagina
+-  [x] Adicionar o SEO.
+   -  [x] Colocar cor tema no header para apple
+   -  [x] Trocar links no index.html em "urldosite"
+   -  [ ] Adicionar o google verification.
+   -  [x] Adicionar o sentry.
+   -  [x] Adicionar o Analytics.
+   -  [x] Incluir tags no HTML (Olhar o repo).
+-  [x] Arrumar os path alias.
+-  [x] Pasta de mocks.
+-  [x] Remoção dos default's imports por index.tsx.
