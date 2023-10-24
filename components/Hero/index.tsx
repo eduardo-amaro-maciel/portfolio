@@ -1,5 +1,8 @@
-import LottieAnimation from "../LottieAnimation";
+//import LottieAnimation from "../LottieAnimation";
 import ScrollDown from "../ScrollDown";
+import dynamic from "next/dynamic";
+
+const LottieAnimation = dynamic(() => import('../LottieAnimation'))
 
 export default function Hero() {
    return (
