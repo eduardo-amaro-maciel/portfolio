@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
    return (
-      <section className="flex gap-7 max-[920px]:flex-col max-[920px]:justify-center max-[920px]:items-center mb-24">
+      <section className="flex gap-7 max-[920px]:flex-col max-[920px]:justify-center max-[920px]:items-center mb-24" style={{ contain: "paint" }}>
          <div className="flex-1">
             <Image
                src={"/assets/images/me.jpg"}
