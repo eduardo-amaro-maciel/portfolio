@@ -11,7 +11,7 @@ type ProjectProps = {
 
 export default function Project({ image, title, site, github }: ProjectProps) {
    return (
-      <div className="flex-1 max-[1380px]:w-fit" data-aos="fade-up" data-aos-duration="1900">
+      <div className="flex-1 max-[1380px]:w-fit max-w-full" data-aos="fade-up" data-aos-duration="1900">
          <div className="border border-black p-2 rounded-xl mb-5 max-[1380px]:w-fit max-[980px]:w-full">
             <Image
                src={`/assets/images/${image}`}

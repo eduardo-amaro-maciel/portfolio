@@ -96,7 +96,7 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
       <html lang="pt-br">
          <body className={localFonts.className + " bg-[#F7F7F7]"}>
             <div className="ml-[8%] mr-[8%]">
-               <div className="max-w-[1400px] m-auto overflow-x-hidden">
+               <div className="max-w-[1400px] m-auto">
                   <MouseBlobity />
                   <ScrollToTop />
                   <AddColorsTailwind />

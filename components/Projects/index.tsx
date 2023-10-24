@@ -3,7 +3,7 @@ import { projects } from "@/utils/projects";
 
 export default function Projects() {
    return (
-      <section className="w-full py-10" id="projects">
+      <section className="w-full py-10 overflow-x-hidden" id="projects">
          <div className="w-full mb-24">
             <h2
                className="text-3xl font-normal text-center max-[420px]:text-3xl aos-init aos-animate"

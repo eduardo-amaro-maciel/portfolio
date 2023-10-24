@@ -14,7 +14,7 @@ export default function Home() {
          <p
             data-aos="fade-up"
             data-aos-duration="1900"
-            className="max-w-4xl m-auto text-center mb-20 text-2xl font-light leading-10 max-[600px]:text-xl max-[600px]:leading-10 "
+            className="max-w-4xl m-auto text-center mb-20 text-2xl font-light leading-10 max-[600px]:text-xl max-[600px]:leading-10"
          >
             Eu criei aplicativos e sites incríveis, explorando uma ampla gama de tecnologias, desde
             HTML, PHP até Node e React. Abaixo, você encontrará alguns dos meus projetos favoritos
