@@ -6,7 +6,7 @@ export default function Home() {
       <section className="w-full mb-16">
          <h1
             className="font-extrabold text-7xl my-10 m-auto w-full text-center max-[600px]:text-3xl"
-            data-aos={"fade-left"}
+            data-aos={"fade-up"}
             data-aos-duration={"1100"}
          >
             TODOS OS MEUS PROJETOS.
