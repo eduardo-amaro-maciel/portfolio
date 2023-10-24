@@ -23,8 +23,8 @@ export default function NavbarMobile() {
          : "text-slate-600" + " p-2 w-fit";
 
    return (
-      <nav className="w-full flex items-center justify-between">
-         <button data-testid="abrir-menu">
+      <nav className="w-full hidden items-center justify-between max-[1080px]:flex">
+         <button>
             <PiListBold onClick={toggleDrawer} className="text-3xl text-black" />
          </button>
          <Drawer

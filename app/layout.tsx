@@ -91,12 +91,12 @@ export const metadata: Metadata = {
    },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode; }) {
    return (
       <html lang="pt-br">
          <body className={localFonts.className + " bg-[#F7F7F7]"}>
             <div className="ml-[8%] mr-[8%]">
-               <div className="max-w-[1400px] m-auto">
+               <div className="max-w-[1400px] m-auto overflow-x-hidden">
                   <MouseBlobity />
                   <ScrollToTop />
                   <AddColorsTailwind />

@@ -11,7 +11,7 @@ export default function NavbarDesktop() {
       pathname === path ? "text-[#111111] font-semibold p-2" : "text-slate-600 p-2";
 
    return (
-      <nav className="flex justify-between">
+      <nav className="flex justify-between max-[1080px]:hidden">
          <Link
             className="font-bold text-base tracking-wider text-black flex items-baseline gap-2 p-0 leading-[30px] mb-0"
             href="/"

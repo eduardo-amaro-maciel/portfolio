@@ -3,13 +3,13 @@
 import { useEffect } from "react";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { blobityConfig } from "./config/blobityConfig";
+import useMediaQuery from "@/hooks/useMediaQuery";
 import AOS from "aos";
 
-// import useMediaQuery from "@/hooks/useMediaQuery";
 
 export default function MouseBlobity() {
    const blobityInstance = useBlobity(blobityConfig);
-   // const { matches } = useMediaQuery("(max-width: 1150px)");
+   //const { matches } = useMediaQuery("(max-width: 880px)");
 
    useEffect(() => {
       AOS.init();
@@ -26,5 +26,5 @@ export default function MouseBlobity() {
       });
    }, []);
 
-   return null;
+   return <div />;
 }
