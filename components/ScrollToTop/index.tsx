@@ -21,8 +21,8 @@ export default function ScrollToTop() {
          onClick={() => window.scrollTo(0, 0)}
          className={
             showsScrolBtn
-               ? "fixed right-10 bottom-10 p-2 bg-slate-300 shadow-2xl rounded transition-all animate-pulse"
-               : "hidden right-10 bottom-10 p-2 bg-slate-300 shadow-2xl rounded transition-all"
+               ? "fixed right-10 bottom-10 p-2 bg-slate-300 shadow-2xl rounded transition-all z-40 animate-pulse"
+               : "hidden right-10 bottom-10 p-2 bg-slate-300 shadow-2xl rounded transition-all z-40 animate-pulse"
          }
       >
          <AiOutlineArrowUp className="text-4xl" />

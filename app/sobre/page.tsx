@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
    return (
-      <section className="flex gap-7 max-[920px]:flex-col max-[920px]:justify-center max-[920px]:items-center">
+      <section className="flex gap-7 max-[920px]:flex-col max-[920px]:justify-center max-[920px]:items-center mb-24">
          <div className="flex-1">
             <Image
                src={"/assets/images/me.jpg"}
@@ -16,18 +16,18 @@ export default function Home() {
          </div>
          <div className="flex-1 mb-7">
             <h1
-               className="font-extrabold text-7xl my-10"
+               className="font-extrabold text-7xl my-10 max-[920px]:text-left max-[520px]:text-3xl"
                data-aos={"fade-left"}
                data-aos-duration={"1100"}
             >
                SOBRE.
             </h1>
-            <p data-aos={"fade-left"} data-aos-duration={"1100"}>
+            <p data-aos={"fade-left"} data-aos-duration={"1100"} className="max-[920px]:text-left max-[420px]:text-base">
                Olá, eu me chamo Eduardo, sou um desenvolvedor full stack com um amplo conhecimento e
                experiência na criação e manutenção de aplicações. Meu foco principal está na
                usabilidade e no desempenho, sempre buscando proporcionar a melhor experiência ao
-               usuário. Além disso, tenho noções de design de interface (UI) e experiência do
-               usuário (UX), o que me permite criar produtos mais intuitivos e atraentes.
+               usuário. Além disso, tenho noções de design de interface UI e experiência do
+               usuário UX, o que me permite criar produtos mais intuitivos e atraentes.
                <br />
                <br />
                Tenho proficiência em diversas ferramentas, incluindo Typescript, PHP e MySQL. Sou

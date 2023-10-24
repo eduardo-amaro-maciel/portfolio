@@ -8,12 +8,12 @@ export default function NavbarDesktop() {
    const pathname = usePathname();
 
    const activePath = (path: string) =>
-      pathname === path ? "text-[#111111] font-semibold" : "text-slate-600" + " p-2";
+      pathname === path ? "text-[#111111] font-semibold p-2" : "text-slate-600 p-2";
 
    return (
       <nav className="flex justify-between">
          <Link
-            className="font-bold text-base tracking-wider text-black flex items-baseline gap-2"
+            className="font-bold text-base tracking-wider text-black flex items-baseline gap-2 p-0 leading-[30px] mb-0"
             href="/"
          >
             EDUARDO AMARO <p className="font-mono">{"</>"}</p>

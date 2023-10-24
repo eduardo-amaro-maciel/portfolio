@@ -6,7 +6,7 @@ export default function Projects() {
       <section className="w-full py-10" id="projects">
          <div className="w-full mb-24">
             <h2
-               className="text-3xl font-normal text-center max-[380px]:text-5xl aos-init aos-animate"
+               className="text-3xl font-normal text-center max-[420px]:text-3xl aos-init aos-animate"
                data-aos="fade-up"
                data-aos-duration="1100"
             >
@@ -29,7 +29,7 @@ export default function Projects() {
          <div className="w-full py-36 flex items-center justify-center">
             <a
                href="/projetos"
-               className="flex gap-2 text-black items-center text-xl font-normal text-center max-[380px]:text-5xl border-2 rounded-full border-gray-700 p-3"
+               className="flex gap-2 text-black items-center text-2xl font-normal text-center max-[420px]:text-base border-2 rounded-full border-gray-700 p-3"
             >
                Ver mais projetos
             </a>
