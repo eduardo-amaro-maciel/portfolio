@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import "aos/dist/aos.css";
 import AddColorsTailwind from "@/components/AddColorsTailwnd";
 import ScrollToTop from "@/components/ScrollToTop";
+import { Analytics } from '@vercel/analytics/react';
 
 const localFonts = localFont({
    src: [
@@ -102,6 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
                   <AddColorsTailwind />
                   <Navbar />
                   {children}
+                  <Analytics />
                </div>
             </div>
          </body>
