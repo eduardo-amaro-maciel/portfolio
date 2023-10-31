@@ -3,9 +3,8 @@
 import { useEffect } from "react";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { blobityConfig } from "./config/blobityConfig";
-import useMediaQuery from "@/hooks/useMediaQuery";
+//import useMediaQuery from "@/hooks/useMediaQuery";
 import AOS from "aos";
-
 
 export default function MouseBlobity() {
    const blobityInstance = useBlobity(blobityConfig);

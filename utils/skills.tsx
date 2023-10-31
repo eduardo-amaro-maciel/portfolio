@@ -1,5 +1,9 @@
 const skills = [
    {
+      name: "Nest.js",
+      color: "bg-red-600",
+   },
+   {
       name: "Typescript",
       color: "bg-blue-500",
    },
@@ -26,6 +30,10 @@ const skills = [
    {
       name: "Next.js",
       color: "bg-black",
+   },
+   {
+      name: "Docker",
+      color: "bg-blue-500",
    },
    {
       name: "Node.js",
@@ -74,6 +82,10 @@ const skills = [
    {
       name: "Reactstrap",
       color: "bg-purple-500",
+   },
+   {
+      name: "PostgreSQL",
+      color: "bg-blue-400",
    },
    {
       name: "Axios",
@@ -169,8 +181,6 @@ const skills = [
    },
 ];
 
-// Vue.js
-// Nest.js
 // Power BI
 
 export default skills;
