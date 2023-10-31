@@ -167,6 +167,10 @@ export default function AddColorsTailwind() {
                   <div className=" bg-green-400"></div>
                   <p>Express</p>
                </div>
+               <div>
+                  <div className=" bg-red-600"></div>
+                  <p>Nest.js</p>
+               </div>
             </div>
          </div>
       </div>
