@@ -13,6 +13,7 @@ export default function MouseBlobity() {
    useEffect(() => {
       AOS.init();
       if (blobityInstance.current) {
+         // eslint-disable-next-line
          // @ts-ignore for debugging purposes or playing around
          window.blobity = blobityInstance.current;
       }
